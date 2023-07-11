@@ -94,10 +94,21 @@ nav a {
 }
 
 /* main sectin styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section styles */
 .about {
     border-radius: 10px;
     background: #FFF8F3;
     padding: 130px;
-    margin: 130px 130px 130px 130px;
+    /* margin: 130px 150px 130px 150px; */
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
