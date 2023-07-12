@@ -96,7 +96,7 @@ nav a {
 /* main sectin styles */
 main{
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 130px auto;
 }
 /* about section styles */
 .about {
@@ -111,4 +111,20 @@ main{
 }
 .about-info{
     text-align: center;
+}
+
+/* what i do part */
+.section-title{
+    justify-content: space-around;
+}
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+}
+.skill{
+    padding: 20px;
+    max-width: 267px;
+    max-height: 377px;
 }
